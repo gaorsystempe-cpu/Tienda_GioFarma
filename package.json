@@ -1,0 +1,36 @@
+{
+  "name": "farmacia-catalogo",
+  "version": "1.0.0",
+  "description": "Catálogo virtual de farmacia con sincronización Odoo-Supabase",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sync:initial": "node scripts/sync-initial.js",
+    "sync:incremental": "node scripts/sync-incremental.js"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@supabase/supabase-js": "^2.39.7",
+    "xmlrpc": "^1.3.2",
+    "axios": "^1.6.7",
+    "zustand": "^4.5.2",
+    "lucide-react": "^0.344.0",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.3"
+  }
+}
